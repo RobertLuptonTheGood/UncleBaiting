@@ -1,0 +1,4 @@
+syntax: glob
+
+uncleBaiting.pdf
+*.{aux,log}
