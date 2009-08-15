@@ -51,25 +51,87 @@ shuffler while this is being done.
 \section{The Meaning of Cards}
 \label{specialCards}
 
+In the following examples we assume that the players are $A$, $B$, $C$, $D$, and $E$ in order of play,
+and $6_A$ means that $A$ plays a 6.  If you're in `Queens mode' the plays are indicated as e.g. $X_{A1} X_{A2} X_{B1}$,
+where $A1$ means $A$'s leading hand.
+
+We use the term, `hand' to refer to a turn --- usually a hand is the same as a player, but not when
+you're in Queens mode.
+
 \begin{description}
-\newcommand{\card}[1]{\hbox to 7mm{#1\hfil}}
+\newcommand{\card}[1]{\hbox to 15mm{#1\hfil}}
 \item[\card{Ace}]
-  The following player must pick up four cards.  The player of the ace must say, ``Sorry'', although sincerity is neither required nor recommended.
+  The following hand must pick up four cards.  The player of the ace must say, ``Sorry'', although sincerity is neither required nor recommended.
 
   \item[\card{2}]
-    The following player must pick up two cards, or play another 2 in which case the next player must
+    The following hand must pick up two cards, or play another 2 in which case the next player must
     pick up four cards (or play a third 2 --- the number of cards to pick up increases only arithmetically)
 
   \item[\card{6}]
     The direction of play reverses immediately, just as if you'd played a King.  Then, after two
     more cards have been played it reverses again.  In the simple case this just goes backwards
-    for 2 turns; if the players are $A$, $B$, $C$, $D$, and $E$ in order of play and $C$ plays
-    a 6, the result would be $6_C, X_B, X_A, X_B, X_C$ ... .
-    
+    for 2 turns; If $C$ plays
+    a 6, the result would be $6_C X_B X_A X_B X_C$.  Now consider what happens if a
+    King's played;  you get $6_C K_B X_C X_B X_A$ or $6_C X_B K_A X_E X_D$.  With an 8,
+    $6_C 8_B X_F X_A, X_B$.
+
+    N.b. 6s apply to hands, not players.  In Queens mode, you might have $6_{C2} X_{C1} X_{B2} X_{C1} X_{C2}$
+
+  \item[\card{7}]
+    The next card played must be 5 or less.  N.b. Aces are low and may therefore be played following a 7;
+    7s and Jacks are not 5 or less.
+
+    As a variant, black 7s must be followed by 5 or less, while red 7s must be followed by 9 or more.
+
+  \item[\card{8}]
+    The next hand is skipped, e.g. $8_C X_E X_F$.
+
+  \item[\card{9}]
+    The play shifts to the previous player and immediately reverses again: $9_C X_B X_C X_D$
+
+    N.b. 9s apply to players, not hands: $9_{C1} X_{B1} X_{B2} X_{C1}$
+
+  \item[\card{10}]
+    Every other hand is skipped until another 10 is played: $10_C X_E X_B X_D$.  If there are an even number of
+    players, this leads to only half the players getting a chance to play until another
+    10 is played (or a 9; e.g.  $10_C X_E X_B 9_D X_C X_F X_A$)
+
+    When going into 10s mode (i.e. starting to skip) the player must say, ``in''; when playing a
+    10 that leaves 10s mode the player must say, ``out''.  Failure to do so results, of course,
+    in picking up a penalty card.
+
+  \item[\card{Jack}]
+    A Jack may be played even if it doesn't follow suit or number.  There are two situations
+    that a Jack may \emph{not} be played:  after a (black) 7, and as a player's last card.
+
+    You \emph{must} announce the suit that the Jack represents (it may be the same as the
+    current suit, or that of the Jack, if you so desire);  in other words after a Jack of
+    hearts, if the player announces, ``Spades'' you must follow with a spade, or another Jack.
+
+    When butting-in on a Jack, you may play either a Jack of the face-value or nomininated suit.
+
+  \item[\card{Queen}]
+    In Queens mode, each player plays twice, once for their `leading' and once for their
+    `trailing' hand.
+
+    When going into Queens mode (i.e. starting to play two hands per player) the player must say, ``in''; when playing
+    the Queen that leaves Queens mode the player must say, ``out''.  Failure to do so is rewarded by picking up a
+    penalty card.
+
+    Note that the combination of 10s and Queens mode feels normal at first sight as each player plays a single hand in
+    turn.  However, when another 10 is played requires knowledge of whether you were playing on leading or trailing
+    hands: $X_{A1} X_{B1} X_{C1} 10_{D1} X_{D2} X_{E1} X_{E2}$ but $X_{A2} X_{B2} X_{C2} 10_{D2} X_{E1} X_{E2}$
+
+  \item[\card{King}]
+    The direction of play is reversed: $X_C K_D X_C X_A$.  In Queens mode, this can result in playing
+    three hands in succession: $X_C2 X_B1 K_B2 X_B1 X_C2$.
+
 \end{description}
 
 \section{Butting in}
 \label{buttingIn}
+
+    Butting in in Queens mode is always considered to be a play from the leading hand.
 
 \section{Penalties}
 \label{penalties}
