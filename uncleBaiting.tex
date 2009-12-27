@@ -82,6 +82,9 @@ you're in Queens mode.
     King's played;  you get $6_C K_B X_C X_B X_A$ or $6_C X_B K_A X_E X_D$.  With an 8,
     $6_C 8_B X_F X_A, X_B$.
 
+    If a second 6 is played while a 6 is active, the first 6's pending reversal is cancelled; e.g.  $6_C X_B
+    6_A X_B X_C X_B X_A X_E$.  Note that in this case the net effect is that the order of play has reversed.
+
     N.b. 6s apply to hands, not players.  In Queens mode, you might have $6_{C2} X_{C1} X_{B2} X_{C1} X_{C2}$.
 
   \item[\card{7}] The next card played must be 5 or less if the 7 is red; Jack or higher if the 7's black.
@@ -109,8 +112,8 @@ you're in Queens mode.
     before the game is over.
 
   \item[\card{Jack}]
-    A Jack may be played even if it doesn't follow suit or number.  There are two situations
-    when a Jack may \emph{not} be played:  after a red 7, and as a player's last card.
+    A Jack may be played even if it doesn't follow suit or number.  There are three situations
+    when a Jack may \emph{not} be played:  after an Ace or 2; after a red 7; and as a player's last card.
 
     You \emph{must} announce the suit that the Jack represents (it may be the same as the
     current suit, or that of the Jack, if you so desire);  in other words after a Jack of
@@ -143,7 +146,7 @@ you're in Queens mode.
 \section{Butting in}
 \label{buttingIn}
 
-Uncle baiting is always played with at least two packs of cards, which means that there
+Uncle Baiting is always played with at least two packs of cards, which means that there
 are duplicates of all cards (e.g. two Queens of Hearts).  When a card is played and you
 have an identical one in your hand, you may always play it --- this is known as `Butting In'.
 Following a butt-in play proceeds as if you'd been the original player of the card, and
@@ -249,11 +252,14 @@ either not accepted, or we've been too scared to try them:
   \item
     Jokers
 
-    Jokers may not be played by themselves, but
-    one or more jokers may be played along with any legal card; each joker has the effect of
-    skipping one hand.  For example, if player A plays a Joker and 2, $({J^k} 2)_A$, C must pick up 2 cards
-    or play a 2 herself;  she is of course at liberty to play $({J^k} {J^k} 2)_C$ to make A pick up 4 cards.
-    You may butt in on a card played with a joker, but not on the joker itself.
+    Jokers may not be played by themselves, but one or more jokers may be played along with any legal card;
+    each joker has the effect of skipping one hand.  For example, if player A plays a Joker and 2, $({J^k}
+    2)_A$, C must pick up 2 cards or play a 2 herself; she is of course at liberty to play $({J^k} {J^k} 2)_C$
+    to make A pick up 4 cards.  You may butt in on a card played with a joker, but not on the Joker itself
+    (the original Jokers are automatically attached to the butted-in card).
+
+    Option: Maybe we should allow butting in on the Joker, which could be exactly equivalent to the butter-in
+    playing the original cards, but with an extra Joker.  Question: is it clear when two Jokers are identical?
 
     A joker may not be played along with a player's last card.
     
