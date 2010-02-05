@@ -152,8 +152,9 @@ you're in Queens mode.
     when it isn't your turn; the only exceptions are that you may not go out with a Joker and you may not play
     a Joker to avoid picking up cards following an ace or 2.
 
-    Each Joker played has the effect of moving play forward by one player (not hand):
-    $X_{A2} X_{B2} J^k J^k X_{E2} X_{F2}$.
+    Each Joker played has the effect of moving play forward by one player (not hand): $X_{A2} X_{B2} J^k J^k
+    X_{E2} X_{F2}$.  The order of play used to define ``following'' is the one after the card was played, so
+    $X_B K_C J^k X_A$ not $X_B K_C J^k X_C$.
 
     For example, if A plays a 2 and someone\footnote{Anyone but B -- remember that you can't use a
       Joker to avoid picking up.} plays a Joker, C must pick up 2 cards or play a 2 herself.  Butting in on a
