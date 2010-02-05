@@ -141,6 +141,28 @@ you're in Queens mode.
     The direction of play is reversed: $X_C K_D X_C X_B$.  In Queens mode, this can result in playing
     three hands in succession: $X_{C2} X_{B1} K_{B2} X_{B1} X_{C2}$.
 
+  \item[\card{Joker}]
+
+    Playing a Joker doesn't count as a turn, rather it may be played on any other card to modify its
+    behaviour; specifically it makes the card behave as if the following player had played it. That is, if A
+    plays a card X and a Joker is added, play continues as if B had played the X.  You may play a Joker even
+    when it isn't your turn; the only exceptions are that you may not go out with a Joker and you may not play
+    a Joker to avoid picking up cards following an ace or 2.
+
+    Each Joker played has the effect of moving play forward by one player (not hand):
+    $X_A X_B J_k J_k X_E X_F$.
+
+    For example, if A plays a 2 and someone\footnote{anyone but B -- remember that you can't use a
+      Joker to avoid picking up.} plays a Joker, C must pick up 2 cards or play a 2 herself.  Butting in on a
+    card is permitted even if Jokers have been played on it, and the Jokers are applied to the butter-in.  For
+    example, if B plays an ace, A adds a Joker, and then D butts in on the ace, F must pick up 4 cards.
+
+    N.b. Because Jokers skip players they may be used to adjust who's playing in 10s mode:
+    $X_C X_E X_A J_k X_D X_F$.
+
+    N.b. If it's your turn and you play a Joker, play passes to the next player.  This means that it's
+    impossible to go out by playing $J_k X$, although it \textit{is} possible to play a Joker to skip the
+    preceeding player, say ``last card'', and go out.
 \end{description}
 
 \section{Butting in}
@@ -184,7 +206,7 @@ Examples of errors are:
 
   \item Attempting to play when it isn't your turn (e.g. if the player before you plays an 8).
 
-  \item Playing an illegal card (e.g. not following suit-or-number;  playing a Jack on a 7).
+  \item Playing an illegal card (e.g. not following suit-or-number;  playing a Jack on a red 7).
 
   \item Making a mistake even if the card was played illegally;  e.g. playing an Ace on a
     black 7 and forgetting to say ``Sorry'' would result in two penalty cards (plus potentially
@@ -249,21 +271,6 @@ either not accepted, or we've been too scared to try them:
 
     N.b. We haven't tried this one yet    
 
-  \item
-    Jokers
-
-    Jokers may not be played by themselves, but one or more jokers may be played along with any legal card;
-    each joker has the effect of skipping one hand.  For example, if player A plays a Joker and 2, $({J^k}
-    2)_A$, C must pick up 2 cards or play a 2 herself; she is of course at liberty to play $({J^k} {J^k} 2)_C$
-    to make A pick up 4 cards.  You may butt in on a card played with a joker, but not on the Joker itself
-    (the original Jokers are automatically attached to the butted-in card).
-
-    Option: Maybe we should allow butting in on the Joker, which could be exactly equivalent to the butter-in
-    playing the original cards, but with an extra Joker.  Question: is it clear when two Jokers are identical?
-
-    A joker may not be played along with a player's last card.
-    
-    N.b. We haven't tried this one yet    
 \end{itemize}
 
 \end{document}
