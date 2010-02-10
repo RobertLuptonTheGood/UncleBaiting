@@ -35,7 +35,7 @@ the game has begun.
 
 \section{How to Play}
 
-The idea of the game is to get rid of all your cards.  On each turn you usually attempt to play one card face up on to
+The aim of the game is to get rid of all your cards.  On each turn you usually attempt to play one card face up on to
 the top of the discard pile; it must either be the same suit (e.g. hearts; spades) or number (e.g.  3; Queen) as the
 last card played.  The only exception to the follow-suit-or-number rule is a Jack --- see \Sec{specialCards}.  If you
 can't play (or don't wish to play) you must take a card from the pick-up pile.
@@ -47,15 +47,15 @@ penalties may be extracted for being slow at this stage.
 When you have only one card left\footnote{i.e. when you play the penultimate card} you \emph{must} say ``Last
 Card''; failure to do so results in a penalty (see \Sec{penalties}).  This penalty is picked up on your \textit{next} turn, the one when you would have won. Exception: if you are required to pick up on this turn, you collect your penalty and then play as usual; either pick up or play a 2.
 
-When the pick-up pile is exhausted, turn over the discard pile (leaving the top card behind), shuffle, and
-place face-down as a new pick-up pile.  No penalties may be extracted from the shuffler while this is being
+When the pick-up pile is exhausted, turn over the discard pile (leaving the top card behind) and
+place face-down as a new pick-up pile.  No penalties may be extracted while this is being
 done.
 
 \section{The Meaning of Cards}
 \label{specialCards}
 
-Some, well most, cards are special.  If the card that's just been discarded is special you may be required to
-do something other than simply discard yourself.  By agreement before the game, you may decide to apply only
+Some (well, most) cards are special.  If the card that's just been played is special you may be required to
+do something other than simply play yourself.  By agreement before the game, you may decide to apply only
 some of these rules (``Let's play aces, 2s, red and black 7s, 8s, 9s, Jacks, Kings, and Jokers'').
 
 In the following examples we assume that the players are $A$, $B$, $C$, $D$, $E$, and $F$ in order of play,
@@ -72,14 +72,14 @@ you're in Queens mode.
   otherwise they will be required to pick up a penalty and the game continues.
 
   \item[\card{2}]
-    The following hand must pick up two cards, or play another 2 in which case the next player must
+    The following hand must pick up two cards, or play another 2 in which case the next hand must
     pick up four cards (or play a third 2 --- the number of cards to pick up increases only arithmetically).
 
   \item[\card{6}]
     The direction of play reverses immediately, just as if you'd played a King.  Then, after two
     more hands have been played it reverses again.  In the simple case this means that play just goes backwards
     for two turns; If $C$ plays
-    a 6, the result would be $6_C X_B X_A X_B X_C$.  Now consider what happens if a
+    a 6, the result would be $6_C X_B X_A X_B X_C X_D X_E$.  Now consider what happens if a
     King's played;  you get $6_C K_B X_C X_B X_A$ or $6_C X_B K_A X_F X_E$.  With an 8,
     $6_C 8_B X_F X_A X_B$.
 
@@ -100,9 +100,9 @@ you're in Queens mode.
     The next hand is skipped, e.g. $8_C X_E X_F$.
 
   \item[\card{9}]
-    The play shifts to the previous player and immediately reverses again: $9_C X_B X_C X_D$.
+    The play shifts to the previous player and continues in the original direction: $9_C X_B X_C X_D$.
 
-    N.b. 9s apply to players, not hands: in Queens mode, $9_{C1} X_{B1} X_{B2} X_{C1}$.
+    N.b. 9s apply to players, not hands: in Queens mode, $9_{C1} X_{B2} X_{C1} X_{C2} X_{D1}$.
 
   \item[\card{10}]
     Every other hand is skipped until another 10 is played: $10_C X_E X_A X_C$.  If there are an even number of
@@ -120,7 +120,7 @@ you're in Queens mode.
 
     You \emph{must} announce the suit that the Jack represents (it may be the same as the
     current suit, or that of the Jack, if you so desire);  in other words after a Jack of
-    Hearts, if the player announces ``Spades'' you must follow with a spade, or another Jack.
+    Hearts, if the player announces ``Spades'' you must follow with a spade or another Jack.
 
     If you fail to announce the new suit the next player may play a card of any suit other than the Jack's own suit.%
     \footnote{The rationale for requiring a change of suit is to minimise the chance that
@@ -133,7 +133,7 @@ you're in Queens mode.
     `trailing' hand --- the leading hand plays first.
 
     When going into Queens mode (i.e. starting to play two hands per player) the player must say, ``In''; when playing
-    the Queen that leaves Queens mode the player must say, ``Out'', even in the Queen is the the player's
+    the Queen that leaves Queens mode the player must say, ``Out'', even if the Queen is the the player's
     last card. Failure to do so is rewarded by picking up a penalty card.  
 
     Note that the combination of 10s and Queens mode feels normal at first sight as each player plays a single hand in
@@ -158,8 +158,8 @@ you're in Queens mode.
 
     For example, if A plays a 2 and someone\footnote{Anyone but B -- remember that you can't use a
       Joker to avoid picking up.} plays a Joker, C must pick up 2 cards or play a 2 herself.  Butting in on a
-    card is permitted even if Jokers have been played on it, and the Jokers are applied to the butter-in.  For
-    example, if B plays an ace, A adds a Joker, and then D butts in on the ace, F must pick up 4 cards.
+    card is permitted even if Jokers have been played on it, although the Jokers are not applied to the butter-in - the situation is as if they had not been played.  For
+    example, if B plays an ace, A adds a Joker, and then D butts in on the ace, E must pick up 4 cards.
 
     N.b. Because Jokers skip players they may be used to adjust who's playing in 10s mode:
     $X_C X_E X_A J^k X_D X_F$.
@@ -169,7 +169,7 @@ you're in Queens mode.
 
     N.b. If it's your turn and you play a Joker, play passes to the next player.  This means that it's
     impossible to go out by playing $J^k X$, although it \textit{is} possible to play a Joker to skip the
-    preceeding player, say ``last card'', and go out.
+    preceeding player, say ``last card'', and go out: $X_A J^k$ [C says ``last card''] $X_C$.
 \end{description}
 
 \section{Butting in}
@@ -177,7 +177,7 @@ you're in Queens mode.
 
 Uncle Baiting is always played with at least two packs of cards, which means that there are duplicates of all
 cards (e.g. two Queens of Hearts).  When a card is played and you have an identical one in your hand, you may
-always play it --- this is known as `Butting In'.  Following a butt-in, play proceeds as if you'd been the
+always play it --- this is known as `Butting In'. If you do play an identical card (e.g. a 3 of Spades on another 3 of Spades), it is always considered a butt-in.  Following a butt-in, play proceeds as if you'd been the
 original player of the card, and the butt-in does \emph{not} count as a separate play (an important point when
 considering 6s and 9s).  If you have two identical cards in your hand you may butt-in on yourself, but you
 must play the two cards separately rather than putting them down together.
@@ -197,7 +197,9 @@ example, after a Jack of Hearts announced as ``Spades'' you may butt-in with eit
 a Jack of Hearts or a Jack of Spades.
 
 Butting in in Queens mode is always considered to be a play from the trailing hand (i.e. you
-don't get to play a second card).
+don't get to play a second card). As previously mentioned, if a card can be a butt-in it is, so if, on their trailing hand, the person behind you played a 3 of spades, and you play another, you do not get to play a second card afterwards.
+
+If C has gone out on an Ace or a 2, and B butts in, then it is counted as the same turn, and C is required to pick up the cards that would be normally required: $A_C A_B \Pi_C$ or $2_C 2_B \Pi_C$. Likewise, jokers still apply - for example: $A_C A_A J^k Pickup_C$ or $2_C 2_A Pickup_C$.
 
 \section{Penalties}
 \label{penalties}
@@ -222,7 +224,7 @@ Examples of errors are:
   \item Asking for clarification of the state of play;  after the card is awarded the
     clarification should be given.
 
-  \item Explaining the state of play until the information's been bought with a penalty.
+  \item Explaining the state of play if the information has not been bought with a penalty.
     
   \item Dropping hints about cards that should be played.
 
@@ -233,8 +235,8 @@ Examples of errors are:
     especially satisfactory penalty, as it means that the game isn't over after all.
 \end{itemize}
 
-Once a penalty card has been awarded it may not be returned to the pickup-pile.  If it found that the award was
-incorrect or unjust the penalty is given to the person who originally proposed it.
+Once a penalty card has been awarded it may not be returned to the pickup-pile (attempting to do so will result in a penalty.)  If it is found that the award was
+incorrect or unjust, the penalty is given to the person who originally proposed it.
 
 \section{Uncle Baiting Junior}
 \label{Junior}
