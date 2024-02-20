@@ -3,7 +3,8 @@ The Rules of Uncle Baiting
 ==========================
 
 Although the game's called Uncle Baiting, it's perfectly permissible to bait Aunts, Nieces, Nephews,
-Cousins, [Grand]sons, [Grand]daughters, and Friends --- even Grandparents;  this is an equal-opportunity game.
+Cousins, [Grand]sons, [Grand]daughters, and Friends --- even Grandparents and Great Aunts;
+this is an equal-opportunity game.
 
 Setting Up
 ----------
@@ -293,8 +294,9 @@ Examples of errors are:
 - Being too officious about awarding penalty cards (the definition of *too* is
   to be decided by majority vote of the players).
 
-- Failing to say "Sorry", "In", or "Out" as required when you triumphantly play your last card.  This is an
-  especially satisfactory penalty, as it means that the game isn't over after all.
+- Failing to say  "Apologies",  "In", "Out", "Sorry", or "You" as required when you
+  triumphantly play your last card.  This is an especially satisfactory penalty,
+  as it means that the game isn't over after all.
 
 Once a penalty card has been awarded it may not be returned to the pickup-pile (attempting to do so will result in a penalty.)  If it is found that the award was
 incorrect or unjust, the penalty is given to the person who originally proposed it.
@@ -309,9 +311,9 @@ Uncle Baiting Junior
 As a gentle introduction for new Uncle Baiters, it's possible to play with just a subset of cards
 active:
 
-- Only Ace, 2, 7, 8, Jack, and King are special.
+- Only Ace, 2, 8, Jack, and King are special.
 
-- All 7s are treated as being red (i.e. to be followed by 5 or less).
+- If 7s are added, the are treated as being red (i.e. to be followed by 5 or less).
 
 All other rules continue in force including butting-in, although there's no need to enforce
 all penalties rigorously (e.g. for playing slowly).
@@ -323,7 +325,8 @@ When Uncle Baiting came into the family it was a rather different game:
 
 - Only Ace, 2, 8, Jack, and King were special.
 
-- Penalties were not enforced.
+- Penalties were not enforced (and therefore heavy hints like, "I wonder if I have an ace of spades" were
+  legal).
 
 - There was no butting-in.
 
@@ -342,6 +345,4 @@ either not accepted, or we've been too scared to try them:
     that group.  In Queens mode, each of your *hands* may belong to different groups;
     exactly how this works has not yet been clarified.
 
-  N.b. We haven't tried this one yet    
-
-
+  N.b. We haven't tried this one yet.
