@@ -103,6 +103,15 @@ Ace
     You may butt-in before the hands are passed (resulting in passing them two places in the direction that
     was set by the initial 4).
 
+5
+    A player who plays a 5 must point at the person they wish is to play next and say, "you"; in 10s mode,
+    they must point at the person's left or right hand.
+    That is, after :math:`5_A`, if :math:`A` points at :math:`E` then play continues as :math:`X_E X_F X_A`;
+    it is permitted to point at yourself (but you still have to say "you" not "me").
+
+    N.b. we haven't tried this, and it may be too powerful.  In that case, we could restrict it to red or
+    black 5s, or only to butted-in 5s.
+
 6
     The direction of play reverses immediately, just as if you'd played a King.  Then, after two
     more hands have been played it reverses again.  In the simple case this means that play just goes backwards
