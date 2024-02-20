@@ -3,7 +3,7 @@ The Rules of Uncle Baiting
 ==========================
 
 Although the game's called Uncle Baiting, it's perfectly permissible to bait Aunts, Nieces, Nephews,
-Cousins, Sons, Daughters, and Friends --- even Grandparents;  this is an equal-opportunity game.
+Cousins, [Grand]sons, [Grand]daughters, and Friends --- even Grandparents;  this is an equal-opportunity game.
 
 Setting Up
 ----------
@@ -50,7 +50,7 @@ else plays a 2 too, you have to pick up many cards and play proceeds.
 .. [#] Because it's more fun.
 
 When the pick-up pile is exhausted, turn over the discard pile (leaving the top card behind) and
-place face-down as a new pick-up pile.  No penalties may be extracted while this is being
+place face-down as a new pick-up pile; do not shuffle.  No penalties may be extracted while this is being
 done.
   
 The Meaning of Cards
@@ -78,6 +78,16 @@ Ace
 2
     The following hand must pick up two cards, or play another 2 in which case the next hand must
     pick up four cards (or play a third 2 --- the number of cards to pick up increases only arithmetically).
+
+3
+    The following hand plays as normal, but then the *next* hand is skipped as if it didn't exist.
+    
+    For example, :math:`3_A X_B X_D` if :math:`X` is inactive (:math:`X_B` might consist of :math:`B`
+    picking up rather than playing), but :math:`3_A 8_B X_E`, :math:`3_A K_B X_F`, 
+    or :math:`3_A A_B p4_D` (:math:`D` picks up 4 cards). A 3 played on the 3 adds,
+    rather like a second 2: :math:`3_A 3_B X_E`.
+    If :math:`E` butts in on the :math:`3_A`, then :math:`F` plays as usual (and :math:`A` is skipped);
+    if :math:`E` butts in on the :math:`X_B`, then :math:`F` is skipped and :math:`A` plays as usual.
 
 4
     Only red 4s are active;  black 4s have no special meaning (yet?).
