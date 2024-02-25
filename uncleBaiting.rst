@@ -24,7 +24,7 @@ Setting Up
   top card and places it next to the pickup-pile forming a discard pile\ [#]_;
   the game has begun.
 
-.. [#] N.b. this card is "dead"; none of the special meanings of cards apply (e.g.
+.. [#] *N.b.* this card is "dead"; none of the special meanings of cards apply (*e.g.*
        no-one has to pick up 4 cards if it's an ace; Sec. `The Meaning of Cards`_); if you 
        "butt-in" (Sec. `Butting-In`_) the butted-in card is also dead.
 
@@ -33,7 +33,7 @@ How to Play
 -----------
 
 The aim of the game is to get rid of all your cards.  On each turn you usually attempt to play one card face
-up on to the top of the discard pile; it must either be the same suit (e.g. hearts; spades) or number (e.g.
+up on to the top of the discard pile; it must either be the same suit (*e.g.* hearts; spades) or number (*e.g.*
 3; Queen) as the last card played.  The only exception to the follow-suit-or-number rule is a Jack --- see
 Sec. `The Meaning of Cards`_.  If you can't play (or don't wish to play) you must take a card from the pick-up
 pile.
@@ -52,7 +52,7 @@ the game isn't actually over until the picking up resulting from your play is co
 For example, if everyone
 else plays a 2 too, you have to pick up many cards and play proceeds.
 
-.. [#] I.e. when you play the penultimate card.
+.. [#] *I.e.* when you play the penultimate card.
 .. [#] Because it's more fun.
 
 When the pick-up pile is exhausted, turn over the discard pile (leaving the top card behind) and
@@ -64,17 +64,17 @@ The Meaning of Cards
 
 Some (well, most) cards are special.  If the card that's just been played is special you may be required to
 do something other than simply play yourself.  By agreement before the game, you may decide to apply only
-some of these rules ("Let's play aces, 2s, red and black 7s, 8s, 9s, Jacks, Kings, and Jokers").
+some of these rules ("Let's play aces, 2s, 3s, red and black 7s, 8s, 9s, Jacks, and Kings";
+10s and Queens is a recommended combination).
 
 In the following examples we assume that the players are :math:`A`, :math:`B`, :math:`C`, :math:`D`,
 :math:`E`, and :math:`F`, in order of play, and :math:`6_A` means that :math:`A` plays a 6;
 :math:`X` stands for any card.  If you're in
-*Queens mode* the plays are indicated as e.g. :math:`X_{A1} X_{A2} X_{B1}`, where :math:`A1` means
-:math:`A`'s leading hand, in
-other words the hand that plays first.
+*Queens' mode* the plays are indicated as *e.g.* :math:`X_{A1} X_{A2} X_{B1}`, where :math:`A1` means
+:math:`A`'s leading hand, in other words the hand that plays first.
 
 We use the term *hand* to refer to a turn --- usually a hand is the same as a player, but not when
-you're in Queens mode.  The concept of "butting-in" is explained in Sec. `Butting-In`_, but a summary
+you're in Queens' mode.  The concept of "butting-in" is explained in Sec. `Butting-In`_, but a summary
 of the consequences is also listed with each card.
 
 Ace
@@ -83,7 +83,8 @@ Ace
     they will be required to pick up a penalty and the game continues.
 
     If someone butts-in, the following player picks up the balance of cards due and an additional four.
-    Butter-in are required to say, "Sorry" just like anyone who plays an ace.
+    Butters-in are required to say, "Sorry" just like anyone who plays an ace.  Butting-in is the only way
+    to avoid picking up after an Ace, but remember that (as usual) the suit has to be identical.
 
 2
     The following hand must pick up two cards, or play another 2 in which case the next hand must
@@ -106,13 +107,14 @@ Ace
 4
     Only red 4s are active;  black 4s have no special meaning (yet?).
 
-    Everyone must pass their entire hand to the next player in the direction of play (i.e. the player of the 4
+    Everyone must pass their entire hand to the next player in the direction of play (*i.e.* the player of
+    the 4
     passes his hand to whoever would have normally played next, taking things like 10s mode and 6s into
     account); the game then continues normally.  If you are passed a hand consisting of only one card you are
     required to say, "last card".  If the previous owner of the hand omitted to say, "last card" they are
     still responsible for the pending penalty --- it does not transfer with the hand.  Due to the major
     inconvenience of sharing your hand with your neighbour for half of your turns, even red 4s are inactive in
-    Queens mode.
+    Queens' mode.
 
     You may butt-in before the hands are passed (resulting in passing them two places in the direction that
     was set by the initial 4).
@@ -123,7 +125,7 @@ Ace
     That is, after :math:`5_A`, if :math:`A` points at :math:`E` then play continues as :math:`X_E X_F X_A`;
     it is permitted to point at yourself (but you still have to say "you" not "me").
 
-    N.b. we haven't tried this, and it may be too powerful.  In that case, we could restrict it to red or
+    *N.b.* We haven't tried this, and it may be too powerful.  In that case, we could restrict it to red or
     black 5s, or only to butted-in 5s.
 
 6
@@ -135,11 +137,14 @@ Ace
     :math:`6_C 8_B X_F X_A X_B`.
 
     If a second 6 is played while a 6 is active, the first 6's pending reversal is cancelled;
-    e.g. :math:`6_C X_B 6_A X_B X_C X_B X_A X_F`.  Note that in this case the net effect is that the order
+    *e.g.* :math:`6_C X_B 6_A X_B X_C X_B X_A X_F`.  Note that in this case the net effect is that the order
     of play has reversed.
 
-    N.b. 6s apply to hands, not players.  In Queens mode,
+    *N.b.* 6s apply to hands, not players.  In Queens' mode,
     you might have :math:`6_{C2} X_{C1} X_{B2} X_{C1} X_{C2}`.
+
+    Butting-in on a 6 cancels the pending reversal as for any 6-on-a-6 (but not the initial reversal):
+    :math:`X_E 6_F 6_D X_E X_F X_E X_D`, again resulting in a reversal of the order of play.
 
 7
    The next card played must be 5 or less if the 7 is red; Jack or higher if the 7's black. You
@@ -147,7 +152,7 @@ Ace
    hand that initially played the 7 without anyone being able to play, and if they cannot play,
    they are required to say "Apologies".  After a butt-in the butter-in becomes the person why must apologise.
     
-   N.b. Aces are low and may therefore be played following a red 7; 7s and Jacks are not 5 or less.\ [#]_ [#]_
+   *N.b.* Aces are low and may therefore be played following a red 7; 7s and Jacks are not 5 or less.\ [#]_ [#]_
 
 .. [#] The reason for the apparently asymmetrical ranges of permitted cards (Ace ... 5 v. Jack ... King)
    is that in fact there are four possible Jacks that can be played, so the ranges really are almost
@@ -156,27 +161,32 @@ Ace
 .. [#] A possibly-helpful mnemonic is that (red) fire is below the (black) smoke.
 
 8
-   The next hand is skipped, e.g. :math:`8_C X_E X_F`.
+   The next hand is skipped, *e.g.* :math:`8_C X_E X_F`.
 
    Because an 8 only changes the order of play, butting-in doesn't result in skipping two hands, rather
-   the hand after the butt-in is skipped.
+   the hand after the butt-in is skipped: :math:`8_A 8_C X_E`.
 
 9
    The play shifts to the previous player and continues in the original direction: :math:`9_C X_B X_C X_D`.
 
-   N.b. 9s apply to players, not hands: In 10s mode, :math:`9_C X_B X_D X_F`;
-   in Queens mode, :math:`9_{C1} X_{B2} X_{C1} X_{C2} X_{D1}`.
+   *N.b.* 9s apply to players, not hands: In 10s mode, :math:`9_C X_B X_D X_F`;
+   in Queens' mode, :math:`9_{C1} X_{B2} X_{C1} X_{C2} X_{D1}`.
+
+   Butting-in results in the player before the butt-in playing next (*cf.* an 8): :math:`9_A 9_D X_C X_D`.
 
 10
-   Every other hand is skipped until another 10 is played: :math:`10_C X_E X_A X_C`.  If there are an even number of
+   Every other hand is skipped until another 10 is played: :math:`10_C X_E X_A X_C`.
+   If there are an even number of
    players, this leads to only half the players getting a chance to play until another
-   10 is played (or a Joker or 9; e.g.  :math:`10_C X_E X_A 9_C X_B X_D X_F`).
+   10 is played (or a Joker or 9; *e.g.*  :math:`10_C X_E X_A 9_C X_B X_D X_F`).
 
-   When going into 10s mode (i.e. starting to skip) the player must say, "In"; when playing a
-   10 that leaves 10s mode the player must say, "Out" (this also applies when butting-in).
+   When going into 10s mode (*i.e.* starting to skip) the player must say, "In"; when playing a
+   10 that leaves 10s mode the player must say, "Out".
    Failure to do so results, of course,
    in picking up a penalty card.  A player whose last card is a 10 must still say "In" or "Out"
    before the game is over.
+
+   If you butting-in on a 10 you must say "In" or "Out" as appropriate.
 
 Jack
     A Jack may be played even if it doesn't follow suit or number.  There are three situations
@@ -185,7 +195,7 @@ Jack
     You **must** announce the suit that the Jack represents (it may be the same as the
     current suit, or that of the Jack, if you so desire);  in other words after a Jack of
     Hearts, if the player announces "Spades" you must follow with a spade or another Jack.
-    You may change your mind about the new suit, e.g. "Diamonds --- I mean Hearts" or "DiaHearts",
+    You may change your mind about the new suit, *e.g.* "Diamonds --- I mean Hearts" or "DiaHearts",
     but only at the cost of a penalty.
 
     If you fail to announce the new suit the next player may play a card of any suit other than the Jack's own
@@ -200,29 +210,30 @@ Jack
       a careless player will make a correct play by mistake.
 
 Queen
-    In Queens mode, each player plays twice, once for their *leading* and once for their
+    In Queens' mode, each player plays twice, once for their *leading* and once for their
     *trailing* hand --- the leading hand plays first.
 
-    When going into Queens mode (i.e. starting to play two hands per player) the player must say, "In"; when
-    playing the Queen that leaves Queens mode the player must say, "Out", even if the Queen is the the
+    When going into Queens' mode (*i.e.* starting to play two hands per player) the player must say, "In"; when
+    playing the Queen that leaves Queens' mode the player must say, "Out", even if the Queen is the the
     player's last card. Failure to do so is rewarded by picking up a penalty card.
 
-    Note that the combination of 10s and Queens mode feels normal at first sight as each player plays a single
+    Note that the combination of 10s and Queens' mode feels normal at first sight as each player plays a single
     hand in turn.  However, when another 10 is played you need to know whether you were playing on leading or
-    trailing hands: :math:`X_{A1} X_{B1} X_{C1} 10_{D1} X_{D2} X_{E1} X_{E2}` but :math:`X_{A2} X_{B2} X_{C2} 10_{D2}
-    X_{E1} X_{E2}`.
+    trailing hands: :math:`X_{A1} X_{B1} X_{C1} 10_{D1} X_{D2} X_{E1} X_{E2}`
+    but :math:`X_{A2} X_{B2} X_{C2} 10_{D2} X_{E1} X_{E2}`.
 
-    Butting-in in Queens mode is always considered to be a play from the trailing hand (i.e. you don't get to
+    Butting-in in Queens' mode is always considered to be a play from the trailing hand (*i.e.* you don't get to
     play a second card). As previously mentioned, if a card can be a butt-in it is, so if, on their trailing
     hand, the person behind you played a 3 of spades, and you play another, you do not get to play a second
     card afterwards. You are required to say "In" or "Out" when butting-in, just like the player of the
     original Queen.
 
 King
-    The direction of play is reversed: :math:`X_C K_D X_C X_B`.  In Queens mode, this can result in playing
-    three hands in succession: :math:`X_{C2} X_{B1} K_{B2} X_{B1} X_{C2}`.
+    The direction of play is reversed: :math:`X_C K_D X_C X_B`.  In Queens' mode, this can result in playing
+    three hands in succession or only one: :math:`X_{C2} X_{B1} K_{B2} X_{B1} X_{C2}` but
+    :math:`X_{C2} K_{B1} X_{C2}`.
 
-    butting-in on a King results in the direction of play being reversed twice, i.e. unaffected.
+    butting-in on a King results in the direction of play being reversed twice, *i.e.* unaffected.
 
 Joker
     Playing a Joker doesn't count as a turn, rather it may be played on any other card to modify its
@@ -240,13 +251,13 @@ Joker
     card is permitted even if Jokers have been played on it, although the Jokers are not applied to the butter-in - the situation is as if they had not been played.  For
     example, if B plays an ace, A adds a Joker, and then D butts-in on the ace, E must pick up 4 cards.
 
-    N.b. Because Jokers skip players they may be used to adjust who's playing in 10s mode:
+    *N.b.* Because Jokers skip players they may be used to adjust who's playing in 10s mode:
     :math:`X_C X_E X_A J^k X_D X_F`.
 
-    N.b. Because playing a Joker is not a turn, the Joker isn't counted when counting for a 6:
+    *N.b.* Because playing a Joker is not a turn, the Joker isn't counted when counting for a 6:
     :math:`6_D X_C X_B X_C X_D` but :math:`6_D X_C J^k X_A X_B X_C`.
 
-    N.b. If it's your turn and you play a Joker, play passes to the next player.  This means that it's
+    *N.b.* If it's your turn and you play a Joker, play passes to the next player.  This means that it's
     impossible to go out by playing :math:`J^k X`, although it *is* possible to play a Joker to skip the
     preceeding player, say "last card", and go out: :math:`X_A J^k_C` [C says "last card"] :math:`X_C`.
 
@@ -256,8 +267,8 @@ Butting-In
 ----------
 
 Uncle Baiting is always played with at least two packs of cards, which means that there are duplicates of all
-cards (e.g. two Queens of Hearts).  When a card is played and you have an identical one in your hand, you may
-always play it --- this is known as *Butting-In*. If you do play an identical card (e.g. a 3 of Spades on
+cards (*e.g.* two Queens of Hearts).  When a card is played and you have an identical one in your hand, you may
+always play it --- this is known as *Butting-In*. If you do play an identical card (*e.g.* a 3 of Spades on
 another 3 of Spades), it is always considered a butt-in.  Following a butt-in, play proceeds as if you'd been
 the original player of the card, and the butt-in does **not** count as a separate play (an important point
 when considering 6s and 9s).  If you have two identical cards in your hand you may usually butt-in on yourself
@@ -284,14 +295,14 @@ It's sometimes a good idea to ban butting-in on yourself (*auto butt-ins*); for 
 cards are in people's hands but there are aces or 2s in play, auto-butting-in can result in excessive
 picking up even by the relaxed standards of Uncle Baiting.  If all players agree, auto-butt-ins may be
 forbidden either permanently or until everyone agrees that balance is restored.  In this case, you may not play
-your second identical card even when your turn comes round again (e.g. if you play a 4 of spades and no-one
+your second identical card even when your turn comes round again (*e.g.* if you play a 4 of spades and no-one
 has spades, you are not permitted to play your second 4 of spades for your next turn --- after all, if you did
 play it, it would be a butt-in and that's forbidden).
 
 Penalties
 ---------
 
-Penalty cards are awarded for all errors; when something must be done promptly (e.g. saying "Sorry" or
+Penalty cards are awarded for all errors; when something must be done promptly (*e.g.* saying "Sorry" or
 "Last card") this must be done before the next player plays to avoid a penalty.  Picking up a penalty
 doesn't end your turn; after accepting it you must still play or pick up.
 
@@ -299,11 +310,11 @@ Examples of errors are:
 
 - Playing slowly;  the definition of *slowly* is left to the consensus of the other players.
 
-- Attempting to play when it isn't your turn (e.g. if the player before you plays an 8).
+- Attempting to play when it isn't your turn (*e.g.* if the player before you plays an 8).
 
-- Playing an illegal card (e.g. not following suit-or-number;  playing a Jack on a red 7).
+- Playing an illegal card (*e.g.* not following suit-or-number;  playing a Jack on a red 7).
 
-- Making a mistake even if the card was played illegally;  e.g. playing an Ace on a
+- Making a mistake even if the card was played illegally;  *e.g.* playing an Ace on a
   black 7 and forgetting to say "Sorry" would result in two penalty cards (plus potentially
   a third for arguing).
 
@@ -337,10 +348,10 @@ active:
 
 - Only Ace, 2, 8, Jack, and King are special.
 
-- If 7s are added, the are treated as being red (i.e. to be followed by 5 or less).
+- If 7s are added, the are treated as being red (*i.e.* to be followed by 5 or less).
 
 All other rules continue in force including butting-in, although there's no need to enforce
-all penalties rigorously (e.g. for playing slowly).
+all penalties rigorously (*e.g.* for playing slowly).
 
 Uncle Baiting Classic
 ---------------------
@@ -366,7 +377,7 @@ either not accepted, or we've been too scared to try them:
   - Each group plays a separate game of Uncle Baiting;  the first player to
     win either group is the overall winner.
   - A player may butt-in to either group;  he or she then becomes a member of
-    that group.  In Queens mode, each of your *hands* may belong to different groups;
+    that group.  In Queens' mode, each of your *hands* may belong to different groups;
     exactly how this works has not yet been clarified.
 
-  N.b. We haven't tried this one yet.
+  *N.b.* We haven't tried this one yet.
