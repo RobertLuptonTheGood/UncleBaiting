@@ -2,6 +2,11 @@
 The Rules of Uncle Baiting
 ==========================
 
+..  figure:: Fighting_Peasants.jpg
+    :width: 15cm
+
+    Fighting Peasants by Adriaen Brouwer (detail); Mauritshuis, The Hague.
+
 Although the game's called Uncle Baiting, it's perfectly permissible to bait Aunts, Nieces, Nephews,
 Cousins, [Grand]sons, [Grand]daughters, and Friends --- even Grandparents and Great Aunts;
 this is an equal-opportunity game.
